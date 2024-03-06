@@ -12,5 +12,7 @@
   tasks:
     - name: Include dist-upgrade task
       ansible.builtin.include_tasks: tasks/dist-upgrade.yml
+    - name: Include users task
+      ansible.builtin.include_tasks: tasks/ansible-user.yml
     - name: Includes packages task
       ansible.builtin.include_tasks: tasks/packages.yml
