@@ -10,6 +10,7 @@
     - wget
     - curl
     - zsh
+    - man
     - tldr
     - bat
     - zoxide
@@ -17,3 +18,5 @@
     - gpg
     - btop
     - sl
+    - asciiquarium
+    - thefuck
