@@ -1,4 +1,5 @@
-- hosts: localhost
+- name: Execute ansible_pull_repo against localhost
+  hosts: localhost
   connection: local
   become: true
 
@@ -9,5 +10,7 @@
       changed_when: false
 
   tasks:
-    - name: Execute packages task
+    - name: Include dist-upgrade task
+      ansible.builtin.include_tasks: tasks/dist-upgrade.yml
+    - name: Includes packages task
       ansible.builtin.include_tasks: tasks/packages.yml

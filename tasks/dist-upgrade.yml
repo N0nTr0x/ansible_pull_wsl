@@ -1,0 +1,4 @@
+- name: Install Dist Upgrades
+  ansible.builtin.package:
+    update_cache: true
+    upgrade: dist
