@@ -1,6 +1,6 @@
 <h1 align="center" id="title">ansible-pull</h1>
 
-<p id="description">This project uses Ansible in combination with a bootstrap script to deploy some of my favorite tools for Linux. Currently I only use it on WSL2 with Ubuntu but I am planning to use it for all kind of workstations.</p>
+<p id="description">This project uses Ansible in combination with a bootstrap script to deploy some of my favorite tools for Linux. Currently, I only use it on WSL2 with Ubuntu, but I am planning to use it for all kind of workstations.</p>
 
   
   
@@ -11,6 +11,7 @@ Here're some of the project's best features:
 *   Dist-Upgrade
 *   IaC-Inspired
 *   Tasks-Seperated
+*   Easy customizable packages
 
 <h2>🛠️ Installation Steps:</h2>
 
