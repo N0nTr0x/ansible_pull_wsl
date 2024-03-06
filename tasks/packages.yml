@@ -6,7 +6,6 @@
   loop_control:
     loop_var: item
   loop: # List of packages to install
-    - neofetch
     - wget
     - curl
     - zsh
@@ -16,7 +15,3 @@
     - zoxide
     - fzf
     - gpg
-    - btop
-    - sl
-    - asciiquarium
-    - thefuck
