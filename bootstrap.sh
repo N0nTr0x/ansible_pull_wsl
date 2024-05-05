@@ -18,6 +18,6 @@ pipx ensurepath
 
 # Pull the Ansible repository from the repository
 echo "Pulling the Ansible repository..."
-/home/wotan/.local/bin/ansible-pull -U https://github.com/N0nTr0x/ansible_pull_wsl.git
+/home/$USER/.local/bin/ansible-pull -U https://github.com/N0nTr0x/ansible_pull_wsl.git
 
 echo "Done."
