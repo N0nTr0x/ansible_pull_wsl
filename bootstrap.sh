@@ -17,6 +17,7 @@ print_separator() {
 # Update package lists (assuming Debian/Ubuntu)
 print_separator
 echo "${BLUE}Updating package lists...${NC}"
+echo ""
 if sudo apt update; then
     echo ""
     echo "${GREEN}Package lists updated successfully.${NC}"
@@ -29,6 +30,7 @@ fi
 # Install required packages
 print_separator
 echo "${BLUE}Installing ansible and git...${NC}"
+echo ""
 if sudo apt install ansible git -y; then
     echo ""
     echo "${GREEN}Ansible and git installed successfully.${NC}"
@@ -41,6 +43,7 @@ fi
 # Pull the Ansible repository from the repository
 print_separator
 echo "${BLUE}Pulling the Ansible repository...${NC}"
+echo ""
 if ansible-pull -U https://github.com/N0nTr0x/ansible_pull_wsl.git; then
     echo ""
     echo "${GREEN}Ansible repository pulled successfully.${NC}"
