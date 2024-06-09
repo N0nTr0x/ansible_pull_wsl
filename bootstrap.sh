@@ -50,5 +50,5 @@ else
     exit 1
 fi
 
-print_separator
+echo ""
 echo "${YELLOW}Done.${NC}"
