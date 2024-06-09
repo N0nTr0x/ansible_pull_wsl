@@ -9,7 +9,11 @@ NC='\033[0m' # No Color
 
 # Function to print a separator
 print_separator() {
+    echo ""
+    echo ""
     echo "${YELLOW}-------------------------------------------------${NC}"
+    echo ""
+    echo ""
 }
 
 # Update package lists (assuming Debian/Ubuntu)
