@@ -10,7 +10,6 @@
     - curl
     - zsh
     - man
-    - tldr
     - bat
     - zoxide
     - fzf
